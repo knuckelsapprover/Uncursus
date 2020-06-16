@@ -13,7 +13,7 @@ Credits to the procursus team for the bootstrap
 
 Linux/macOS/windows-putty
 
-5 open sileo (DO NOT UPGRADE ALL ONLY UPDATE OPENSSH
+5 open sileo (DO NOT UPGRADE ALL ONLY UPDATE OPENSSH)
 
 6 profit
 
