@@ -5,8 +5,8 @@ else
 echo -e "\e[31mWelcome to Uncursus Install Script V1.0.3 (Beta) By @Yaya4_4 fork by knuckles Follow Me On Twitter Pls.\e[0m"
 echo "WARNING : THIS IS IN BETA A9-A11 IS ONLY SUPPORTED IM NOT RESPONSABLE IF ANYTHING GOES WRONG"
 echo "If you have found any bug's pls create an issues in github ;)"
-echo "Enjoy :)"
 echo "Starting..."
+echo "Enjoy ;)"
 echo "Installing Dependency's For The Installer"
 apt update
 apt install unzip -y
@@ -43,6 +43,6 @@ echo "Done. Running Firmware Configuration (./firmware.sh)"
 /usr/libexec/firmware
 echo "BootStrap Installions Done. The Installer Clean The Installions"
 rm -rf /User/Documents/Uncursus/
-echo "All Done."
+echo "All done see you after the respring."
 killall SpringBoard
 fi
