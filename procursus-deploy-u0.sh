@@ -107,7 +107,7 @@ if [[ ! "${ARM}" = yes ]]; then
 	scp -P4444 -o "StrictHostKeyChecking no" -o "UserKnownHostsFile=/dev/null" bootstrap_1500-ssh.tar.gz bootstrap_1600-ssh.tar.gz migration org.coolstar.sileo_1.8.1_iphoneos-arm.deb odyssey-device-deploy.sh root@127.0.0.1:/var/root/
 	clear
 fi
-echo "Installing Procursus bootstrap and Sileo on your device"
+echo "Installing Procursus bootstrap and Sileo on your device and uncursus essentials"
 if [[ "${ARM}" = yes ]]; then
 	zsh ./odyssey-device-deploy.sh
 else
