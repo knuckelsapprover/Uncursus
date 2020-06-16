@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ $(uname) = "Darwin" ]; then
 	if [ $(uname -p) = "arm" ] || [ $(uname -p) = "arm64" ]; then
-		echo "It's recommended this script be ran on macOS/Linux with a clean iOS device running checkra1n attached unless migrating from older bootstrap."
+		echo "It's recommended this script be ran on macOS/Linux/Windows-putty with a clean iOS device running checkra1n or u0 attached unless migrating from older bootstrap."
 		read -p "Press enter to continue"
 		ARM=yes
 	fi
